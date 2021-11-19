@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>NTP Movies</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+p{
+				color: blue;
+				font-size: 18px;
+		}
+		ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		position: fixed; 
+		position: sticky;
+		top: 0;
+		}
+
+		a{
+		background-color: #ecf0f3;
+		box-shadow: -5px -5px 12px #ffffff,
+		5px 5px 12px rgba(0,0,0,.16);
+		border-radius: 10%;
+		border: none;
+		margin: 10px;
+		font-size: 18px;
+		padding:10px 15px;
+		text-align: center;
+		display:inline-block;
+		margin-top: 9px;
+		}
+		a:hover{
+		background-color: rgb(241, 227, 227);
+		cursor: pointer;
+		transition: 0.5s;
+		}
+		
+	
+
+/* Style the header */
+header {
+    background-color: #fff;
+    padding: 5px;
+    text-align: center;
+    font-size: 25px;
+    background-color: #ecf0f3;
+    box-shadow: -7px -7px 15px #ffffff,
+    7px 7px 15px rgba(0,0,0,.16);
+    border-radius: 25%;
+    }
+    .container{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding:10px 15px;
+    
+    }
+    .mirror {
+		border-radius: 50px;
+		background: linear-gradient(145deg, #c3e6e4, #e8ffff);
+		box-shadow:  5px 5px 10px #b8d9d7,
+             -5px -5px 10px #faffff;
+             height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding:10px 25px;
+    height: auto;
+    display: flex;
+}
+  
+  article {
+  float: left;
+  padding: 20px;
+  width: 100%; 
+  background-color: #f1f1f1;
+  height: auto; 
+  /* only for demonstration, should be removed */
+  /* Clear floats after the columns */
+  section::after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+  
+  /* Style the footer */
+  footer {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  }
+  
+  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+  @media (max-width: 600px) {
+  nav, article {
+  width: 100%;
+  height: auto;
+  }
+  }
+  </style>
+  </head>
+  <body>
+	<ul>
+  <header>
+  <h2>Ntp Movies</h2>
+  <h5 id="demo"></h5>
+  <script>
+  const d = new Date();
+  document.getElementById("demo").innerHTML = d.toLocaleString();;
+  </script>
+  </header>
+  
+  <section>
+  <nav>
+  	
+  		<div class="container">
+  	<div class="mirror">
+  	
+ <a href="file:///storage/emulated/0/ntp/ntp_action.html">Action</a>
+ <a href="file:///storage/emulated/0/ntp/ntp_cartoon.html">Cartoon</a>
+ <a href="file:///storage/emulated/0/ntp/ntp_series.html">Series</a>
+ <a href="file:///storage/emulated/0/ntp/ntp_horror.html">Horror</a>
+ <a href="file:///storage/emulated/0/ntp/ntp_comedy.html">Comedy</a>
+ 
+		</div>
+  </div>
+  </nav>
+  </ul>
+  
+  <article>
+  <h1>Series</h1>
+  <ol>
+  <li>
+  
+  <p >The Witch’s Diner</p>
+  
+  <a href="https://mycinema.asia/media/series/The_Witch's_Diner/The_Witch\u2019s_Diner_2021_01/The_Witch\u2019s_Diner_2021_01.m3u8""><p font-size="18px">1</p><img src="https://mycinema.asia/image/avatar_7511.jpg"></a>
+  <a href="https://mycinema.asia/media/series/The_Witch's_Diner/The_Witch\u2019s_Diner_2021_02/The_Witch\u2019s_Diner_2021_02.m3u8""><p font-size="18px">2</p><img src="https://mycinema.asia/image/avatar_7511.jpg"></a>
+  <a href="https://mycinema.asia/media/series/The_Witch's_Diner/The_Witch\u2019s_Diner_2021_03/The_Witch\u2019s_Diner_2021_03.m3u8""><p font-size="18px">3</p><img src="https://mycinema.asia/image/avatar_7511.jpg"></a>
+  
+  </li>
+  <li>
+  <p>The.Good.Detective</p>
+  <a href="https://mycinema.asia/media/series/The.Good.Detective/The.Good.Detective_ep1_360/The.Good.Detective_ep1_360.m3u8"><img src="https://mycinema.asia/image/avatar_3661.jpg"><p font-size="20px">(1)</p></a>
+  <a href="https://mycinema.asia/media/series/The.Good.Detective/The.Good.Detective_ep2_360/The.Good.Detective_ep2_360.m3u8"><img src="https://mycinema.asia/image/avatar_3661.jpg"><p font-size="20px">(2)</p></a>
+  <a href="https://mycinema.asia/media/series/The.Good.Detective/The.Good.Detective_ep3_360/The.Good.Detective_ep3_360.m3u8"><img src="https://mycinema.asia/image/avatar_3661.jpg"><p font-size="20px">(3)</p></a>
+  <a href="https://mycinema.asia/media/series/The.Good.Detective/The.Good.Detective_ep4_360/The.Good.Detective_ep4_360.m3u8"><img src="https://mycinema.asia/image/avatar_3661.jpg"><p font-size="20px">(4)</p></a>
+  <a href="https://mycinema.asia/media/series/The.Good.Detective/The.Good.Detective_ep5_360/The.Good.Detective_ep5_360.m3u8"><img src="https://mycinema.asia/image/avatar_3661.jpg"><p font-size="20px">(5)</p></a>
+  <a href="https://mycinema.asia/media/series/The.Good.Detective/The.Good.Detective_ep6_360/The.Good.Detective_ep6_360.m3u8"><img src="https://mycinema.asia/image/avatar_3661.jpg"><p font-size="20px">(6)</p></a>
+  <a href="https://mycinema.asia/media/series/The.Good.Detective/The.Good.Detective_ep7_360/The.Good.Detective_ep7_360.m3u8"><img src="https://mycinema.asia/image/avatar_3661.jpg"><p font-size="20px">(7)</p></a>
+  <a href="https://mycinema.asia/media/series/The.Good.Detective/The.Good.Detective_ep8_360/The.Good.Detective_ep8_360.m3u8"><img src="https://mycinema.asia/image/avatar_3661.jpg"><p font-size="20px">(8)</p></a>
+  <a href="https://mycinema.asia/media/series/The.Good.Detective/The.Good.Detective_ep9_360/The.Good.Detective_ep9_360.m3u8"><img src="https://mycinema.asia/image/avatar_3661.jpg"><p font-size="20px">(9)</p></a>
+  <a href="https://mycinema.asia/media/series/The.Good.Detective/The.Good.Detective_ep10_360/The.Good.Detective_ep10_360.m3u8"><img src="https://mycinema.asia/image/avatar_3661.jpg"><p font-size="20px">(10)</p></a>
+  <a href="https://mycinema.asia/media/series/The.Good.Detective/The.Good.Detective_ep11_360/The.Good.Detective_ep11_360.m3u8"><img src="https://mycinema.asia/image/avatar_3661.jpg"><p font-size="20px">(11)</p></a>
+  <a href="https://mycinema.asia/media/series/The.Good.Detective/The.Good.Detective_ep12_360/The.Good.Detective_ep12_360.m3u8"><img src="https://mycinema.asia/image/avatar_3661.jpg"><p font-size="20px">(12)</p></a>
+  <a href="https://mycinema.asia/media/series/The.Good.Detective/The.Good.Detective_ep13_360/The.Good.Detective_ep13_360.m3u8"><img src="https://mycinema.asia/image/avatar_3661.jpg"><p font-size="20px">(13)</p></a>
+  <a href="https://mycinema.asia/media/series/The.Good.Detective/The.Good.Detective_ep14_360/The.Good.Detective_ep14_360.m3u8"><img src="https://mycinema.asia/image/avatar_3661.jpg"><p font-size="20px">(14)</p></a>
+  <a href="https://mycinema.asia/media/series/The.Good.Detective/The.Good.Detective_ep15_360/The.Good.Detective_ep15_360.m3u8"><img src="https://mycinema.asia/image/avatar_3661.jpg"><p font-size="20px">(15)</p></a>
+  <a href="https://mycinema.asia/media/series/The.Good.Detective/The.Good.Detective_ep16_360/The.Good.Detective_ep16_360.m3u8"><img src="https://mycinema.asia/image/avatar_3661.jpg"><p font-size="20px">(16)</p></a>
+  
+  </li>
+  
+  <li>
+  <p>Shadow.and.Bone</p>
+  <a href="https://mycinema.asia/media/series/Shadow.and.Bone/Shadow.and.Bone_Ep01_360/Shadow.and.Bone_Ep01_360.m3u8"><img src="https://mycinema.asia/image/avatar_6381.jpg"><p font-size="20px">(1)</p></a>
+  <a href="https://mycinema.asia/media/series/Shadow.and.Bone/Shadow.and.Bone_Ep01_360/Shadow.and.Bone_Ep01_360.m3u8"><img src="https://mycinema.asia/image/avatar_6381.jpg"><p font-size="20px">(2)</p></a>
+  <a href="https://mycinema.asia/media/series/Shadow.and.Bone/Shadow.and.Bone_Ep01_360/Shadow.and.Bone_Ep01_360.m3u8"><img src="https://mycinema.asia/image/avatar_6381.jpg"><p font-size="20px">(3)</p></a>
+  </li>
+  <li>
+  <p>Barbarians (2020)</p>
+  <a href="https://mycinema.asia/media/series/Barbarians_2020/Barbarians_2020_ep1_360/Barbarians_2020_ep1_360.m3u8"><img src="https://mycinema.asia/image/avatar_4950.jpg"><p font-size="20px">(1)</p></a>
+  <a href="https://mycinema.asia/media/series/Barbarians_2020/Barbarians_2020_ep2_360/Barbarians_2020_ep2..m3u8"><img src="https://mycinema.asia/image/avatar_4950.jpg"><p font-size="20px">(2)</p></a>
+  <a href="https://mycinema.asia/media/series/Barbarians_2020/Barbarians_2020_ep3_360/Barbarians_2020_ep3.m3u8"><img src="https://mycinema.asia/image/avatar_4950.jpg"><p font-size="20px">(3)</p></a>
+  <a href="https://mycinema.asia/media/series/Barbarians_2020/Barbarians_2020_ep4_360/Barbarians_2020_ep4.m3u8"><img src="https://mycinema.asia/image/avatar_4950.jpg"><p font-size="20px">(4)</p></a>
+  <a href="https://mycinema.asia/media/series/Barbarians_2020/Barbarians_2020_ep5_360/Barbarians_2020_ep5.m3u8"><img src="https://mycinema.asia/image/avatar_4950.jpg"><p font-size="20px">(5)</p></a>
+  <a href="https://mycinema.asia/media/series/Barbarians_2020/Barbarians_2020_ep6_360/Barbarians_2020_ep6.m3u8"><img src="https://mycinema.asia/image/avatar_4950.jpg"><p font-size="20px">(6)</p></a>
+  
+  </li>
+  
+  
+  <li>
+  <p >Undercover</p>
+  <a href="https://mycinema.asia/media/series/Undercover/Undercover_01_360/Undercover_01_360.m3u8"><p font-size="18px">(1)</p><img src="https://mycinema.asia/image/avatar_6081.jpg"></a>
+  <a href="https://mycinema.asia/media/series/Undercover/Undercover_02_360/Undercover_02_360.m3u8"><p font-size="18px">(2)</p><img src="https://mycinema.asia/image/avatar_6081.jpg"></a>
+  <a href="https://mycinema.asia/media/series/Undercover/Undercover_03_360/Undercover_03_360.m3u8"><p font-size="18px">(3)</p><img src="https://mycinema.asia/image/avatar_6081.jpg"></a>
+  <a href="https://mycinema.asia/media/series/Undercover/Undercover_04_360/Undercover_04_360.m3u8"><p font-size="18px">(4)</p><img src="https://mycinema.asia/image/avatar_6081.jpg"></a>
+  <a href="https://mycinema.asia/media/series/Undercover/Undercover_05_360/Undercover_05_360.m3u8"><p font-size="18px">(5)</p><img src="https://mycinema.asia/image/avatar_6081.jpg"></a>
+  <a href="https://mycinema.asia/media/series/Undercover/Undercover_06_360/Undercover_06_360.m3u8"><p font-size="18px">(6)</p><img src="https://mycinema.asia/image/avatar_6081.jpg"></a>
+  <a href="https://mycinema.asia/media/series/Undercover/Undercover_07_360/Undercover_07_360.m3u8"><p font-size="18px">(7)</p><img src="https://mycinema.asia/image/avatar_6081.jpg"></a>
+  <a href="https://mycinema.asia/media/series/Undercover/Undercover_08_360/Undercover_08_360.m3u8"><p font-size="18px">(8)</p><img src="https://mycinema.asia/image/avatar_6081.jpg"></a>
+  <a href="https://mycinema.asia/media/series/Undercover/Undercover_09_360/Undercover_09_360.m3u8"><p font-size="18px">(9)</p><img src="https://mycinema.asia/image/avatar_6081.jpg"></a>
+  <a href="https://mycinema.asia/media/series/Undercover/Undercover_10_360/Undercover_10_360.m3u8"><p font-size="18px">(10)</p><img src="https://mycinema.asia/image/avatar_6081.jpg"></a>
+  </li>
+  <li>
+  <p >Mr.Queen</p>
+  <a href="https://mycinema.asia/media/series/MrQueen_2020/MrQueen_ep1_360/MrQueen_ep1_360.m3u8"><img src="https://mycinema.asia/image/avatar_5062.jpg"><p font-size="18px">(1)</p></a>
+  <a href="https://mycinema.asia/media/series/MrQueen_2020/MrQueen_ep2_360/MrQueen_ep2_360.m3u8"><img src="https://mycinema.asia/image/avatar_5062.jpg"><p font-size="18px">(2)</p></a>
+  <a href="https://mycinema.asia/media/series/MrQueen_2020/MrQueen_ep3_360/MrQueen_ep3_360.m3u8"><img src="https://mycinema.asia/image/avatar_5062.jpg"><p font-size="18px">(3)</p></a>
+  <a href="https://mycinema.asia/media/series/MrQueen_2020/MrQueen_ep4_360/MrQueen_ep4_360.m3u8"><img src="https://mycinema.asia/image/avatar_5062.jpg"><p font-size="18px">(4)</p></a>
+  <a href="https://mycinema.asia/media/series/MrQueen_2020/MrQueen_ep5_360/MrQueen_ep5_360.m3u8"><img src="https://mycinema.asia/image/avatar_5062.jpg"><p font-size="18px">(5)</p></a>
+  <a href="https://mycinema.asia/media/series/MrQueen_2020/MrQueen_ep6_360/MrQueen_ep6_360.m3u8"><img src="https://mycinema.asia/image/avatar_5062.jpg"><p font-size="18px">(6)</p></a>
+  <a href="https://mycinema.asia/media/series/MrQueen_2020/MrQueen_ep7_360/MrQueen_ep7_360.m3u8"><img src="https://mycinema.asia/image/avatar_5062.jpg"><p font-size="18px">(7)</p></a>
+  <a href="https://mycinema.asia/media/series/MrQueen_2020/MrQueen_ep8_360/MrQueen_ep8_360.m3u8"><img src="https://mycinema.asia/image/avatar_5062.jpg"><p font-size="18px">(8)</p></a>
+  <a href="https://mycinema.asia/media/series/MrQueen_2020/MrQueen_ep9_360/MrQueen_ep9_360.m3u8"><img src="https://mycinema.asia/image/avatar_5062.jpg"><p font-size="18px">(9)</p></a>
+  <a href="https://mycinema.asia/media/series/MrQueen_2020/MrQueen_ep10_360/MrQueen_ep10_360.m3u8"><img src="https://mycinema.asia/image/avatar_5062.jpg"><p font-size="18px">(10)</p></a>
+  <a href="https://mycinema.asia/media/series/MrQueen_2020/MrQueen_ep11_360/MrQueen_ep11_360.m3u8"><img src="https://mycinema.asia/image/avatar_5062.jpg"><p font-size="18px">(11)</p></a>
+  <a href="https://mycinema.asia/media/series/MrQueen_2020/MrQueen_ep12_360/MrQueen_ep12_360.m3u8"><img src="https://mycinema.asia/image/avatar_5062.jpg"><p font-size="18px">(12)</p></a>
+  <a href="https://mycinema.asia/media/series/MrQueen_2020/MrQueen_ep13_360/MrQueen_ep13_360.m3u8"><img src="https://mycinema.asia/image/avatar_5062.jpg"><p font-size="18px">(13)</p></a>
+  <a href="https://mycinema.asia/media/series/MrQueen_2020/MrQueen_ep14_360/MrQueen_ep14_360.m3u8"><img src="https://mycinema.asia/image/avatar_5062.jpg"><p font-size="18px">(14)</p></a>
+  <a href="https://mycinema.asia/media/series/MrQueen_2020/MrQueen_ep15_360/MrQueen_ep15_360.m3u8"><img src="https://mycinema.asia/image/avatar_5062.jpg"><p font-size="18px">(15)</p></a>
+  <a href="https://mycinema.asia/media/series/MrQueen_2020/MrQueen_ep16_360/MrQueen_ep16_360.m3u8"><img src="https://mycinema.asia/image/avatar_5062.jpg"><p font-size="18px">(16)</p></a>
+  <a href="https://mycinema.asia/media/series/MrQueen_2020/MrQueen_ep17_360/MrQueen_ep17_360.m3u8"><img src="https://mycinema.asia/image/avatar_5062.jpg"><p font-size="18px">(17)</p></a>
+  <a href="https://mycinema.asia/media/series/MrQueen_2020/MrQueen_ep18_360/MrQueen_ep18_360.m3u8"><img src="https://mycinema.asia/image/avatar_5062.jpg"><p font-size="18px">(18)</p></a>
+  <a href="https://mycinema.asia/media/series/MrQueen_2020/MrQueen_ep19_360/MrQueen_ep19_360.m3u8"><img src="https://mycinema.asia/image/avatar_5062.jpg"><p font-size="18px">(19)</p></a>
+  <a href="https://mycinema.asia/media/series/MrQueen_2020/MrQueen_ep20_360/MrQueen_ep20_360.m3u8"><img src="https://mycinema.asia/image/avatar_5062.jpg"><p font-size="18px">(20)</p></a>
+  <a href="https://mycinema.asia/media/series/MrQueen_2020/MrQueen_ep21_360/MrQueen_ep21_360.m3u8"><img src="https://mycinema.asia/image/avatar_5062.jpg"><p font-size="18px">(21)</p></a>
+  <a href="https://mycinema.asia/media/series/MrQueen_2020/MrQueen_ep22_360/MrQueen_ep22_360.m3u8"><img src="https://mycinema.asia/image/avatar_5062.jpg"><p font-size="18px">(22)</p></a>
+  </li>
+  
+  
+  <li>
+  <p >Vincenzo</p>
+  <a href="https://mycinema.asia/media/series/Vincenzo.2021/Vincenzo.2021.EP1_360/Vincenzo.2021.EP1_360.m3u8"><img src="https://mycinema.asia/image/avatar_5770.jpg"><p font-size="18px">(1)</p></a>
+  <a href="https://mycinema.asia/media/series/Vincenzo.2021/Vincenzo.2021.EP2_360/Vincenzo.2021.EP2_360.m3u8"><img src="https://mycinema.asia/image/avatar_5770.jpg"><p font-size="18px">(2)</p></a>
+  <a href="https://mycinema.asia/media/series/Vincenzo.2021/Vincenzo.2021.EP3_360/Vincenzo.2021.EP3_360.m3u8"><img src="https://mycinema.asia/image/avatar_5770.jpg"><p font-size="18px">(3)</p></a>
+  <a href="https://mycinema.asia/media/series/Vincenzo.2021/Vincenzo.2021.EP4_360/Vincenzo.2021.EP4_360.m3u8"><img src="https://mycinema.asia/image/avatar_5770.jpg"><p font-size="18px">(4)</p></a>
+  <a href="https://mycinema.asia/media/series/Vincenzo.2021/Vincenzo.2021.EP5_360/Vincenzo.2021.EP5_360.m3u8"><img src="https://mycinema.asia/image/avatar_5770.jpg"><p font-size="18px">(5)</p></a>
+  <a href="https://mycinema.asia/media/series/Vincenzo.2021/Vincenzo.2021.EP6_360/Vincenzo.2021.EP6_360.m3u8"><img src="https://mycinema.asia/image/avatar_5770.jpg"><p font-size="18px">(6)</p></a>
+  <a href="https://mycinema.asia/media/series/Vincenzo.2021/Vincenzo.2021.EP7_360/Vincenzo.2021.EP7_360.m3u8"><img src="https://mycinema.asia/image/avatar_5770.jpg"><p font-size="18px">(7)</p></a>
+  <a href="https://mycinema.asia/media/series/Vincenzo.2021/Vincenzo.2021.EP8_360/Vincenzo.2021.EP8_360.m3u8"><img src="https://mycinema.asia/image/avatar_5770.jpg"><p font-size="18px">(8)</p></a>
+  <a href="https://mycinema.asia/media/series/Vincenzo.2021/Vincenzo.2021.EP9_360/Vincenzo.2021.EP9_360.m3u8"><img src="https://mycinema.asia/image/avatar_5770.jpg"><p font-size="18px">(9)</p></a>
+  <a href="https://mycinema.asia/media/series/Vincenzo.2021/Vincenzo.2021.EP10_360/Vincenzo.2021.EP10_360.m3u8"><img src="https://mycinema.asia/image/avatar_5770.jpg"><p font-size="18px">(10)</p></a>
+  <a href="https://mycinema.asia/media/series/Vincenzo.2021/Vincenzo.2021.EP11_360/Vincenzo.2021.EP11_360.m3u8"><img src="https://mycinema.asia/image/avatar_5770.jpg"><p font-size="18px">(11)</p></a>
+  <a href="https://mycinema.asia/media/series/Vincenzo.2021/Vincenzo.2021.EP12_360/Vincenzo.2021.EP12_360.m3u8"><img src="https://mycinema.asia/image/avatar_5770.jpg"><p font-size="18px">(12))</p></a>
+  <a href="https://mycinema.asia/media/series/Vincenzo.2021/Vincenzo.2021.EP13_360/Vincenzo.2021.EP13_360.m3u8"><img src="https://mycinema.asia/image/avatar_5770.jpg"><p font-size="18px">(13)</p></a>
+  <a href="https://mycinema.asia/media/series/Vincenzo.2021/Vincenzo.2021.EP14_360/Vincenzo.2021.EP14_360.m3u8"><img src="https://mycinema.asia/image/avatar_5770.jpg"><p font-size="18px">(14)</p></a>
+  <a href="https://mycinema.asia/media/series/Vincenzo.2021/Vincenzo.2021.EP15_360/Vincenzo.2021.EP15_360.m3u8"><img src="https://mycinema.asia/image/avatar_5770.jpg"><p font-size="18px">(15)</p></a>
+  <a href="https://mycinema.asia/media/series/Vincenzo.2021/Vincenzo.2021.EP16_360/Vincenzo.2021.EP16_360.m3u8"><img src="https://mycinema.asia/image/avatar_5770.jpg"><p font-size="18px">(16)</p></a>
+  <a href="https://mycinema.asia/media/series/Vincenzo.2021/Vincenzo.2021.EP17_360/Vincenzo.2021.EP17_360.m3u8"><img src="https://mycinema.asia/image/avatar_5770.jpg"><p font-size="18px">(17)</p></a>
+  <a href="https://mycinema.asia/media/series/Vincenzo.2021/Vincenzo.2021.EP18_360/Vincenzo.2021.EP18_360.m3u8"><img src="https://mycinema.asia/image/avatar_5770.jpg"><p font-size="18px">(18)</p></a>
+  <a href="https://mycinema.asia/media/series/Vincenzo.2021/Vincenzo.2021.EP19_360/Vincenzo.2021.EP19_360.m3u8"><img src="https://mycinema.asia/image/avatar_5770.jpg"><p font-size="18px">(19)</p></a>
+  <a href="https://mycinema.asia/media/series/Vincenzo.2021/Vincenzo.2021.EP20_360/Vincenzo.2021.EP20_360.m3u8"><img src="https://mycinema.asia/image/avatar_5770.jpg"><p font-size="18px">(20)</p></a>
+  </li>
+  
+  <li>
+  <p >Loki (2021) 1</p>
+  <a href="https://mycinema.asia/media/series/Loki.2021/Loki_2021_01_360/Loki_2021_01_360.m3u8"><img src="https://mycinema.asia/image/avatar_7302.jpg"><p font-size="18px">(1)</p></a>
+  <a href="https://mycinema.asia/media/series/Loki.2021/Loki_2021_02_360/Loki_2021_02_360.m3u8"><img src="https://mycinema.asia/image/avatar_7302.jpg"><p font-size="18px">(2)</p></a>
+  <a href="https://mycinema.asia/media/series/Loki.2021/Loki_2021_03_360/Loki_2021_03_360.m3u8"><img src="https://mycinema.asia/image/avatar_7302.jpg"><p font-size="18px">(3)</p></a>
+  <a href="https://mycinema.asia/media/series/Loki.2021/Loki_2021_04_360/Loki_2021_04_360.m3u8"><img src="https://mycinema.asia/image/avatar_7302.jpg"><p font-size="18px">(4)</p></a>
+  <a href="https://mycinema.asia/media/series/Loki.2021/Loki_2021_05_360/Loki_2021_05_360.m3u8"><img src="https://mycinema.asia/image/avatar_7302.jpg"><p font-size="18px">(5)</p></a>
+  <a href="https://mycinema.asia/media/series/Loki.2021/Loki_2021_06_360/Loki_2021_06_360.m3u8"><img src="https://mycinema.asia/image/avatar_7302.jpg"><p font-size="18px">(6)</p></a>
+  </li>
+  
+  
+  <li>
+  <p >Game of throne (series-1)</p>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S01/Game_of_Thrones_S01E01/Game_of_Thrones_S01E01.m3u8"><img src="https://mycinema.asia/image/avatar_165.jpg"><p font-size="18px">(1)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S01/Game_of_Thrones_S01E02/Game_of_Thrones_S01E02.m3u8"><img src="https://mycinema.asia/image/avatar_165.jpg"><p font-size="18px">(2)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S01/Game_of_Thrones_S01E03/Game_of_Thrones_S01E03.m3u8"><img src="https://mycinema.asia/image/avatar_165.jpg"><p font-size="18px">(3)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S01/Game_of_Thrones_S01E04/Game_of_Thrones_S01E04.m3u8"><img src="https://mycinema.asia/image/avatar_165.jpg"><p font-size="18px">(4)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S01/Game_of_Thrones_S01E05/Game_of_Thrones_S01E05.m3u8"><img src="https://mycinema.asia/image/avatar_165.jpg"><p font-size="18px">(5)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S01/Game_of_Thrones_S01E06/Game_of_Thrones_S01E06.m3u8"><img src="https://mycinema.asia/image/avatar_165.jpg"><p font-size="18px">(6)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S01/Game_of_Thrones_S01E07/Game_of_Thrones_S01E07.m3u8"><img src="https://mycinema.asia/image/avatar_165.jpg"><p font-size="18px">(7)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S01/Game_of_Thrones_S01E08/Game_of_Thrones_S01E08.m3u8"><img src="https://mycinema.asia/image/avatar_165.jpg"><p font-size="18px">(8)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S01/Game_of_Thrones_S01E09/Game_of_Thrones_S01E09.m3u8"><img src="https://mycinema.asia/image/avatar_165.jpg"><p font-size="18px">(9)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S01/Game_of_Thrones_S01E10/Game_of_Thrones_S01E10.m3u8"><img src="https://mycinema.asia/image/avatar_165.jpg"><p font-size="18px">(10)</p></a>
+  
+  
+  <p >Game of throne (series-2)</p>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S02/Game_of_Thrones_S02E01/Game_of_Thrones_S02E01.m3u8"><img src="https://mycinema.asia/image/avatar_517.jpg"><p font-size="18px">(2)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S02/Game_of_Thrones_S02E02/Game_of_Thrones_S02E02.m3u8"><img src="https://mycinema.asia/image/avatar_517.jpg"><p font-size="18px">(2)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S02/Game_of_Thrones_S02E03/Game_of_Thrones_S02E03.m3u8"><img src="https://mycinema.asia/image/avatar_517.jpg"><p font-size="18px">(2)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S02/Game_of_Thrones_S02E04/Game_of_Thrones_S02E04.m3u8"><img src="https://mycinema.asia/image/avatar_517.jpg"><p font-size="18px">(2)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S02/Game_of_Thrones_S02E05/Game_of_Thrones_S02E05.m3u8"><img src="https://mycinema.asia/image/avatar_517.jpg"><p font-size="18px">(2)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S02/Game_of_Thrones_S02E06/Game_of_Thrones_S02E06.m3u8"><img src="https://mycinema.asia/image/avatar_517.jpg"><p font-size="18px">(2)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S02/Game_of_Thrones_S02E07/Game_of_Thrones_S02E07.m3u8"><img src="https://mycinema.asia/image/avatar_517.jpg"><p font-size="18px">(2)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S02/Game_of_Thrones_S02E08/Game_of_Thrones_S02E08.m3u8"><img src="https://mycinema.asia/image/avatar_517.jpg"><p font-size="18px">(2)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S02/Game_of_Thrones_S02E09/Game_of_Thrones_S02E09.m3u8"><img src="https://mycinema.asia/image/avatar_517.jpg"><p font-size="18px">(2)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S02/Game_of_Thrones_S02E18/Game_of_Thrones_S02E10.m3u8"><img src="https://mycinema.asia/image/avatar_517.jpg"><p font-size="18px">(2)</p></a>
+  
+  <p >Game of throne (series-3)</p>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S03/Game_of_Thrones_S03E01/Game_of_Thrones_S03E01.m3u8"><img src="https://mycinema.asia/image/avatar_873.jpg"><p font-size="18px">(3)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S03/Game_of_Thrones_S03E02/Game_of_Thrones_S03E02.m3u8"><img src="https://mycinema.asia/image/avatar_873.jpg"><p font-size="18px">(3)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S03/Game_of_Thrones_S03E03/Game_of_Thrones_S03E03.m3u8"><img src="https://mycinema.asia/image/avatar_873.jpg"><p font-size="18px">(3)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S03/Game_of_Thrones_S03E04/Game_of_Thrones_S03E04.m3u8"><img src="https://mycinema.asia/image/avatar_873.jpg"><p font-size="18px">(3)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S03/Game_of_Thrones_S03E05/Game_of_Thrones_S03E05.m3u8"><img src="https://mycinema.asia/image/avatar_873.jpg"><p font-size="18px">(3)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S03/Game_of_Thrones_S03E06/Game_of_Thrones_S03E06.m3u8"><img src="https://mycinema.asia/image/avatar_873.jpg"><p font-size="18px">(3)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S03/Game_of_Thrones_S03E07/Game_of_Thrones_S03E07.m3u8"><img src="https://mycinema.asia/image/avatar_873.jpg"><p font-size="18px">(3)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S03/Game_of_Thrones_S03E08/Game_of_Thrones_S03E08.m3u8"><img src="https://mycinema.asia/image/avatar_873.jpg"><p font-size="18px">(3)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S03/Game_of_Thrones_S03E09/Game_of_Thrones_S03E09.m3u8"><img src="https://mycinema.asia/image/avatar_873.jpg"><p font-size="18px">(3)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S03/Game_of_Thrones_S03E10/Game_of_Thrones_S03E10.m3u8"><img src="https://mycinema.asia/image/avatar_873.jpg"><p font-size="18px">(3)</p></a>
+  
+  <p >Game of throne (series-4)</p>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S04/GOT_SS4_Ep01_360/GOT_SS4_Ep01_360.m3u8"><img src="https://mycinema.asia/image/avatar_1680.jpg"><p font-size="18px">S4(1)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S04/GOT_SS4_Ep02_360/GOT_SS4_Ep02_360.m3u8"><img src="https://mycinema.asia/image/avatar_1680.jpg"><p font-size="18px">S4(2)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S04/GOT_SS4_Ep03_360/GOT_SS4_Ep03_360.m3u8"><img src="https://mycinema.asia/image/avatar_1680.jpg"><p font-size="18px">S4(3)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S04/GOT_SS4_Ep04_360/GOT_SS4_Ep04_360.m3u8"><img src="https://mycinema.asia/image/avatar_1680.jpg"><p font-size="18px">S4(4)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S04/GOT_SS4_Ep05_360/GOT_SS4_Ep05_360.m3u8"><img src="https://mycinema.asia/image/avatar_1680.jpg"><p font-size="18px">S4(5)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S04/GOT_SS6_Ep01_360/GOT_SS4_Ep06_360.m3u8"><img src="https://mycinema.asia/image/avatar_1680.jpg"><p font-size="18px">S4(6)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S04/GOT_SS4_Ep07_360/GOT_SS4_Ep07_360.m3u8"><img src="https://mycinema.asia/image/avatar_1680.jpg"><p font-size="18px">S4(7)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S04/GOT_SS4_Ep08_360/GOT_SS4_Ep08_360.m3u8"><img src="https://mycinema.asia/image/avatar_1680.jpg"><p font-size="18px">S4(8)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S04/GOT_SS4_Ep09_360/GOT_SS4_Ep09_360.m3u8"><img src="https://mycinema.asia/image/avatar_1680.jpg"><p font-size="18px">S4(9)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S04/GOT_SS4_Ep10_360/GOT_SS4_Ep10_360.m3u8"><img src="https://mycinema.asia/image/avatar_1680.jpg"><p font-size="18px">S4(10)</p></a>
+  <p >Game of throne (series-5)</p>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S05/GOT_S05E01_360/GOT_S05E01_360.m3u8"><img src="https://mycinema.asia/image/avatar_1873.jpg"><p font-size="18px">S5(1)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S05/GOT_S05E02_360/GOT_S05E02_360.m3u8"><img src="https://mycinema.asia/image/avatar_1873.jpg"><p font-size="18px">S5(2)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S05/GOT_S05E03_360/GOT_S05E03_360.m3u8"><img src="https://mycinema.asia/image/avatar_1873.jpg"><p font-size="18px">S5(3)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S05/GOT_S05E04_360/GOT_S05E04_360.m3u8"><img src="https://mycinema.asia/image/avatar_1873.jpg"><p font-size="18px">S5(4)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S05/GOT_S05E05_360/GOT_S05E05_360.m3u8"><img src="https://mycinema.asia/image/avatar_1873.jpg"><p font-size="18px">S5(5)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S05/GOT_S05E06_360/GOT_S05E06_360.m3u8"><img src="https://mycinema.asia/image/avatar_1873.jpg"><p font-size="18px">S5(6)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S05/GOT_S05E07_360/GOT_S05E07_360.m3u8"><img src="https://mycinema.asia/image/avatar_1873.jpg"><p font-size="18px">S5(7)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S05/GOT_S05E08_360/GOT_S05E08_360.m3u8"><img src="https://mycinema.asia/image/avatar_1873.jpg"><p font-size="18px">S5(8)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S05/GOT_S05E09_360/GOT_S05E09_360.m3u8"><img src="https://mycinema.asia/image/avatar_1873.jpg"><p font-size="18px">S5(9)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S05/GOT_S05E10_360/GOT_S05E10_360.m3u8"><img src="https://mycinema.asia/image/avatar_1873.jpg"><p font-size="18px">S5(10)</p></a>
+  <p >Game of throne (series-6)</p>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S06/GOT_SS6_E01_360/GOT_SS6_E01_360.m3u8"><img src="https://mycinema.asia/image/avatar_1928.jpg"><p font-size="18px">S6(1)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S06/GOT_SS6_E02_360/GOT_SS6_E02_360.m3u8"><img src="https://mycinema.asia/image/avatar_1928.jpg"><p font-size="18px">S6(2)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S06/GOT_SS6_E03_360/GOT_SS6_E03_360.m3u8"><img src="https://mycinema.asia/image/avatar_1928.jpg"><p font-size="18px">S6(3)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S06/GOT_SS6_E04_360/GOT_SS6_E04_360.m3u8"><img src="https://mycinema.asia/image/avatar_1928.jpg"><p font-size="18px">S6(4)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S06/GOT_SS6_E05_360/GOT_SS6_E05_360.m3u8"><img src="https://mycinema.asia/image/avatar_1928.jpg"><p font-size="18px">S6(5)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S06/GOT_SS6_E06_360/GOT_SS6_E06_360.m3u8"><img src="https://mycinema.asia/image/avatar_1928.jpg"><p font-size="18px">S6(6)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S06/GOT_SS6_E07_360/GOT_SS6_E07_360.m3u8"><img src="https://mycinema.asia/image/avatar_1928.jpg"><p font-size="18px">S6(7)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S06/GOT_SS6_E08_360/GOT_SS6_E08_360.m3u8"><img src="https://mycinema.asia/image/avatar_1928.jpg"><p font-size="18px">S6(8)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S06/GOT_SS6_E09_360/GOT_SS6_E09_360.m3u8"><img src="https://mycinema.asia/image/avatar_1928.jpg"><p font-size="18px">S6(9)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S06/GOT_SS6_E10_360/GOT_SS6_E10_360.m3u8"><img src="https://mycinema.asia/image/avatar_1928.jpg"><p font-size="18px">S6(10)</p></a>
+  
+  <p >Game of throne (series-7)</p>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S07/GOT_S07E01_360/GOT_S07E01_360.m3u8"><img src="https://mycinema.asia/image/avatar_2043.jpg"><p font-size="18px">S7(1)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S07/GOT_S07E02_360/GOT_S07E02_360.m3u8"><img src="https://mycinema.asia/image/avatar_2043.jpg"><p font-size="18px">S7(2)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S07/GOT_S07E03_360/GOT_S07E03_360.m3u8"><img src="https://mycinema.asia/image/avatar_2043.jpg"><p font-size="18px">S7(3)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S07/GOT_S07E04_360/GOT_S07E04_360.m3u8"><img src="https://mycinema.asia/image/avatar_2043.jpg"><p font-size="18px">S7(4)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S07/GOT_S07E05_360/GOT_S07E05_360.m3u8"><img src="https://mycinema.asia/image/avatar_2043.jpg"><p font-size="18px">S7(5)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S07/GOT_S07E06_360/GOT_S07E06_360.m3u8"><img src="https://mycinema.asia/image/avatar_2043.jpg"><p font-size="18px">S7(6)</p></a>
+  <a href="https://mycinema.asia/media/series/Game.of.thrones/Game_of_Thrones_S07/GOT_S07E07_360/GOT_S07E07_360.m3u8"><img src="https://mycinema.asia/image/avatar_2043.jpg"><p font-size="18px">S7(7)</p></a>
+  
+  
+  <p >Game of throne (series-8)</p>
+  <a href="https://mycinema.asia/media/series/Game_of_Thrones_S08/GOT_S08E01_360/GOT_S08E01_360.m3u8"><img src="https://mycinema.asia/image/avatar_2083.jpg"><p font-size="18px">S8(1)</p></a>
+  <a href="https://mycinema.asia/media/series/Game_of_Thrones_S08/GOT_S08E02_360/GOT_S08E02_360.m3u8"><img src="https://mycinema.asia/image/avatar_2083.jpg"><p font-size="18px">S8(2)</p></a>
+  <a href="https://mycinema.asia/media/series/Game_of_Thrones_S08/GOT_S08E03_360/GOT_S08E03_360.m3u8"><img src="https://mycinema.asia/image/avatar_2083.jpg"><p font-size="18px">S8(3)</p></a>
+  <a href="https://mycinema.asia/media/series/Game_of_Thrones_S08/GOT_S08E04_360/GOT_S08E04_360.m3u8"><img src="https://mycinema.asia/image/avatar_2083.jpg"><p font-size="18px">S8(4)</p></a>
+  <a href="https://mycinema.asia/media/series/Game_of_Thrones_S08/GOT_S08E05_360/GOT_S08E05_360.m3u8"><img src="https://mycinema.asia/image/avatar_2083.jpg"><p font-size="18px">S8(5)</p></a>
+  <a href="https://mycinema.asia/media/series/Game_of_Thrones_S08/GOT_S08E06_360/GOT_S08E06_360.m3u8"><img src="https://mycinema.asia/image/avatar_2083.jpg"><p font-size="18px">S8(6)</p></a>
+  
+  
+  
+  
+  
+  </li>
+  <li>
+  <p>Girl From Nowhere (1)</p>
+  <a href="https://mycinema.asia/media/series/Girl.From.Nowhere/Girl.From.Nowhere.01.360/Girl.From.Nowhere.01.360.m3u8"> 					<img src="https://mycinema.asia/image/avatar_7481.jpg"> 								 <p font-size="18px">(1)</p>											</a>					<!--end 1 film item--> 			
+  <a href="https://mycinema.asia/media/series/Girl.From.Nowhere/Girl.From.Nowhere.02.360/Girl.From.Nowhere.02.360.m3u8"> 					<img src="https://mycinema.asia/image/avatar_7481.jpg"> 								 				<p font-size="18px">(2)</p>							</a>					<!--end 1 film item--> 			
+  <a href="https://mycinema.asia/media/series/Girl.From.Nowhere/Girl.From.Nowhere.03.360/Girl.From.Nowhere.03.360.m3u8"> 					<img src="https://mycinema.asia/image/avatar_7481.jpg"> 								 					<p font-size="18px">(3)</p>						</a>					<!--end 1 film item--> 			
+  </li>
+  
+  <li>
+  <p >Stargirl S-1 Ep1</p>
+  <a href="https://mycinema.asia/media/series/Stargirl_SS1/Stargirl_ep1_720/Stargirl_ep1_720.m3u8"><img src="https://mycinema.asia/image/avatar_2845.jpg"><p font-size="18px">###</p></a>
+  <a href="https://mycinema.asia/media/series/Stargirl_SS1/Stargirl_ep2_720/Stargirl_ep2_720.m3u8" ><img src="https://mycinema.asia/image/avatar_2845.jpg"><p font-size="18px">###</p></a>
+  <a href="https://mycinema.asia/media/series/Stargirl_SS1/Stargirl_ep3_720/Stargirl_ep3_720.m3u8" ><img src="https://mycinema.asia/image/avatar_2845.jpg"><p font-size="18px">###</p></a>
+  <a href="https://mycinema.asia/media/series/Stargirl_SS1/Stargirl_ep4_720/Stargirl_ep4_720.m3u8" ><img src="https://mycinema.asia/image/avatar_2845.jpg"><p font-size="18px">###</p></a>
+  <a href="https://mycinema.asia/media/series/Stargirl_SS1/Stargirl_ep5_720/Stargirl_ep5_720.m3u8" ><img src="https://mycinema.asia/image/avatar_2845.jpg"><p font-size="18px">###</p></a>
+  <a href="https://mycinema.asia/media/series/Stargirl_SS1/Stargirl_ep6_720/Stargirl_ep6_720.m3u8" ><img src="https://mycinema.asia/image/avatar_2845.jpg"><p font-size="18px">###</p></a>
+  <a href="https://mycinema.asia/media/series/Stargirl_SS1/Stargirl_ep7_720/Stargirl_ep7_720.m3u8" ><img src="https://mycinema.asia/image/avatar_2845.jpg"><p font-size="18px">###</p></a>
+  <a href="https://mycinema.asia/media/series/Stargirl_SS1/Stargirl_ep8_720/Stargirl_ep8_720.m3u8" ><img src="https://mycinema.asia/image/avatar_2845.jpg"><p font-size="18px">###</p></a>
+  <a href="https://mycinema.asia/media/series/Stargirl_SS1/Stargirl_ep9_720/Stargirl_ep9_720.m3u8" ><img src="https://mycinema.asia/image/avatar_2845.jpg"><p font-size="18px">###</p></a>
+  <a href="https://mycinema.asia/media/series/Stargirl_SS1/Stargirl_ep10_720/Stargirl_ep10_720.m3u8" ><img src="https://mycinema.asia/image/avatar_2845.jpg"><p font-size="18px">###</p></a>
+  <a href="https://mycinema.asia/media/series/Stargirl_SS1/Stargirl_ep11_720/Stargirl_ep11_720.m3u8" ><img src="https://mycinema.asia/image/avatar_2845.jpg"><p font-size="18px">###</p></a>
+  <a href="https://mycinema.asia/media/series/Stargirl_SS1/Stargirl_ep12_720/Stargirl_ep12_720.m3u8" ><img src="https://mycinema.asia/image/avatar_2845.jpg"><p font-size="18px">###</p></a>
+  <a href="https://mycinema.asia/media/series/Stargirl_SS1/Stargirl_ep13_720/Stargirl_ep13_720.m3u8" ><img src="https://mycinema.asia/image/avatar_2845.jpg"><p font-size="18px">###</p></a>
+  </li>
+  
+  <li>
+  <p >Backstreet Rookie Ep-1</p>
+  <a href="https://mycinema.asia/media/series/Backstreet_Rookie/Backstreet_Rookie_Ep1_360/Backstreet_Rookie_Ep1_360.m3u8" ><img src="https://mycinema.asia/image/avatar_3101.jpg"><p font-size="18px">(1)</p></a>
+  <a href="https://mycinema.asia/media/series/Backstreet_Rookie/Backstreet_Rookie_Ep2_360/Backstreet_Rookie_Ep2_360.m3u8" ><img src="https://mycinema.asia/image/avatar_3101.jpg"><p font-size="18px">(2)</p></a>
+  <a href="https://mycinema.asia/media/series/Backstreet_Rookie/Backstreet_Rookie_Ep3_360/Backstreet_Rookie_Ep3_360.m3u8" ><img src="https://mycinema.asia/image/avatar_3101.jpg"><p font-size="18px">(3)</p></a>
+  <a href="https://mycinema.asia/media/series/Backstreet_Rookie/Backstreet_Rookie_Ep4_360/Backstreet_Rookie_Ep4_360.m3u8" ><img src="https://mycinema.asia/image/avatar_3101.jpg"><p font-size="18px">(4)</p></a>
+  <a href="https://mycinema.asia/media/series/Backstreet_Rookie/Backstreet_Rookie_Ep5_360/Backstreet_Rookie_Ep5_360.m3u8" ><img src="https://mycinema.asia/image/avatar_3101.jpg"><p font-size="18px">(5)</p></a>
+  <a href="https://mycinema.asia/media/series/Backstreet_Rookie/Backstreet_Rookie_Ep6_360/Backstreet_Rookie_Ep6_360.m3u8" ><img src="https://mycinema.asia/image/avatar_3101.jpg"><p font-size="18px">(6)</p></a>
+  <a href="https://mycinema.asia/media/series/Backstreet_Rookie/Backstreet_Rookie_Ep7_360/Backstreet_Rookie_Ep7_360.m3u8" ><img src="https://mycinema.asia/image/avatar_3101.jpg"><p font-size="18px">(7)</p></a>
+  <a href="https://mycinema.asia/media/series/Backstreet_Rookie/Backstreet_Rookie_Ep8_360/Backstreet_Rookie_Ep8_360.m3u8" ><img src="https://mycinema.asia/image/avatar_3101.jpg"><p font-size="18px">(8)</p></a>
+  <a href="https://mycinema.asia/media/series/Backstreet_Rookie/Backstreet_Rookie_Ep9_360/Backstreet_Rookie_Ep9_360.m3u8" ><img src="https://mycinema.asia/image/avatar_3101.jpg"><p font-size="18px">(9)</p></a>
+  <a href="https://mycinema.asia/media/series/Backstreet_Rookie/Backstreet_Rookie_Ep10_360/Backstreet_Rookie_Ep10_360.m3u8" ><img src="https://mycinema.asia/image/avatar_3101.jpg"><p font-size="18px">(10)</p></a>
+  <a href="https://mycinema.asia/media/series/Backstreet_Rookie/Backstreet_Rookie_Ep11_360/Backstreet_Rookie_Ep11_360.m3u8" ><img src="https://mycinema.asia/image/avatar_3101.jpg"><p font-size="18px">(11)</p></a>
+  <a href="https://mycinema.asia/media/series/Backstreet_Rookie/Backstreet_Rookie_Ep12_360/Backstreet_Rookie_Ep12_360.m3u8" ><img src="https://mycinema.asia/image/avatar_3101.jpg"><p font-size="18px">(12)</p></a>
+  <a href="https://mycinema.asia/media/series/Backstreet_Rookie/Backstreet_Rookie_Ep13_360/Backstreet_Rookie_Ep13_360.m3u8" ><img src="https://mycinema.asia/image/avatar_3101.jpg"><p font-size="18px">(13)</p></a>
+  <a href="https://mycinema.asia/media/series/Backstreet_Rookie/Backstreet_Rookie_Ep14_360/Backstreet_Rookie_Ep14_360.m3u8" ><img src="https://mycinema.asia/image/avatar_3101.jpg"><p font-size="18px">(14)</p></a>
+  <a href="https://mycinema.asia/media/series/Backstreet_Rookie/Backstreet_Rookie_Ep15_360/Backstreet_Rookie_Ep15_360.m3u8" ><img src="https://mycinema.asia/image/avatar_3101.jpg"><p font-size="18px">(15)</p></a>
+  <a href="https://mycinema.asia/media/series/Backstreet_Rookie/Backstreet_Rookie_Ep16_360/Backstreet_Rookie_Ep16_360.m3u8" ><img src="https://mycinema.asia/image/avatar_3101.jpg"><p font-size="18px">(6)</p></a>
+  </li>
+  
+  <li>
+  <p>The.Winter.Soldier</p>
+  <a href="https://mycinema.asia/media/series/The.Falcon.And.The.Winter.Soldier/The.Falcon.And.The.Winter.Soldier.S01e01.360/The.Falcon.And.The.Winter.Soldier.S01e01.360.m3u8"><img src="https://mycinema.asia/image/avatar_7605.jpg"><p font-size="20px">(1)</p></a>
+  <a href="https://mycinema.asia/media/series/The.Falcon.And.The.Winter.Soldier/The.Falcon.And.The.Winter.Soldier.S01e02.360/The.Falcon.And.The.Winter.Soldier.S01e02.360.m3u8"><img src="https://mycinema.asia/image/avatar_7605.jpg"><p font-size="20px">(2)</p></a>
+  <a href="https://mycinema.asia/media/series/The.Falcon.And.The.Winter.Soldier/The.Falcon.And.The.Winter.Soldier.S01e03.360/The.Falcon.And.The.Winter.Soldier.S01e03.360.m3u8"><img src="https://mycinema.asia/image/avatar_7605.jpg"><p font-size="20px">(3)</p></a>
+  
+  </li>
+  </ol>
+  
+  </article>
+ </section>
+ 
+ <footer>
+ <h5>Codding by NgaTatPyar</h5>
+ </footer>
+ 
+ </body>
+ </html>
+ 
+ 
