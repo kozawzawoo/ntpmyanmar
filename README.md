@@ -1,0 +1,2 @@
+# ntpmyanmar
+myanmar
